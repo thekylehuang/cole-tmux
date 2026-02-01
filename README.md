@@ -2,6 +2,8 @@
 
 A tmux theme based on the [Cole](https://github.com/thekylehuang/cole) colorscheme. Uses only default colors (no configuration).
 
+![Demo image of the tmux theme](https://raw.githubusercontent.com/thekylehuang/cole-tmux/main/.github/assets/demo.png)
+
 ## Installation
 
 ### Using TPM (Tmux Plugin Manager)
