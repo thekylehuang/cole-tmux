@@ -35,6 +35,10 @@ tmux set-window-option -g window-status-current-format " #I: #W "
 tmux set-option -g pane-border-style "fg=$border"
 tmux set-option -g pane-active-border-style "fg=$accent_bright"
 
+# Messages
+tmux set-option -g message-style "bg=$black,fg=$foreground"
+tmux set-option -g message-command-style "bg=$black,fg=$foreground"
+
 # Copy mode
 tmux set-window-option -g copy-mode-match-style "bg=$green,fg=$black"
 tmux set-window-option -g copy-mode-current-match-style "bg=$green_bright,fg=$black"
