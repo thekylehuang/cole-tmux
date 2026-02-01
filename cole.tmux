@@ -27,8 +27,8 @@ tmux set-window-option -g window-status-current-style "bg=$accent,fg=$black,bold
 tmux set-window-option -g window-status-separator " "
 
 # Format window names in list
-tmux set-window-option -g window-status-format " #I #W "
-tmux set-window-option -g window-status-current-format " #I #W "
+tmux set-window-option -g window-status-format " #I: #W "
+tmux set-window-option -g window-status-current-format " #I: #W "
 
 # Panes styling
 tmux set-option -g pane-border-style "fg=$border"
