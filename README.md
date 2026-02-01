@@ -12,5 +12,4 @@ Add these lines to the top of `~/.config/tmux/tmux.conf`:
 set -g @plugin 'thekylehuang/cole-tmux'
 ```
 
-Then press `prefix + I` to fetch and install.
-
+Then press `prefix + I` to fetch and install. It should appear in `~/.config/tmux/plugins/`.
