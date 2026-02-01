@@ -43,7 +43,7 @@ tmux set-window-option -g copy-mode-current-match-style "bg=$green_bright,fg=$bl
 tmux set-option -g command-style "bg=$black,fg=$foreground"
 
 # Status bar left (session info)
-tmux set-option -g status-left "#[bg=$red,fg=$black,bold] #{session_name:u} #[bg=$background,fg=$foreground]"
+tmux set-option -g status-left "#[bg=$red,fg=$black,bold] #S #[bg=$background,fg=$foreground]"
 
 # Status bar right (time and date)
 tmux set-option -g status-right "#[bg=$background,fg=$foreground] %H:%M #[bg=$red,fg=$black,bold] %Y-%m-%d "
