@@ -1,8 +1,7 @@
-# Cole for [tmux](https://github.com/tmux/tmux/wiki)
-
-A tmux theme based on the [Cole](https://github.com/thekylehuang/cole) colorscheme. Uses only default colors (no configuration).
-
-![Demo image of the tmux theme](https://raw.githubusercontent.com/thekylehuang/cole-tmux/main/.github/assets/demo.png)
+<div align="center">
+  <h1>cole-tmux</h1>
+  <img alt="Preview" src="https://raw.githubusercontent.com/thekylehuang/cole-tmux/main/.github/images/cole-tmux-screenshot.png" />
+</div>
 
 ## Installation
 
